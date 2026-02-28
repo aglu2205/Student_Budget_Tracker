@@ -1,24 +1,28 @@
-# Student_Budget_Tracker
+# Student Budget Tracker
 
-## Description
-A simple application to help college students track income, expenses, and monthly budgets.
+A simple Java-based command-line application that allows users to track income and expenses.
 
 ## Features
-Add income
-Add expenses
-Category Tracking
-Monthly Summaries
+- Add income
+- Add expenses
+- View current balance
+- Interactive CLI menu
+- Object-oriented design
 
 ## Tech Stack
-Java
-SQLite
-Git
-Linux
+- Java
+- OOP principles
+- Git & GitHub
 
-## Why I Built This
-To help students manage finances and build practical software engineering skills.
+## Project Structure
+src/
+- Main.java
+- BudgetTracker.java
 
-## Future Improvements
-Web Interface
-Data Visualzation
-User Authentication
+## How to Run
+1. Compile the files
+2. Run Main.java
+3. Follow menu prompts
+
+## Status
+Version 1 complete.
