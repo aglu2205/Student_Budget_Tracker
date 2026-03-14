@@ -31,7 +31,8 @@ public class Main {
                     break;
 
                 case 3:
-                    System.out.println("Current Balance: " + (income - expenses));
+                    double balance = income - expenses;
+                    System.out.println("Current Balance: " + balance);
                     break;
 
                 case 4:
@@ -43,6 +44,9 @@ public class Main {
             }
 
         } while (choice != 4);
+
+        double finalBalance = income - expenses;
+        System.out.println("Your final balance is: " + finalBalance);
 
         scanner.close();
     }
